@@ -1,0 +1,33 @@
+  .container {
+    display: flex;
+    align-items: stretch;
+    height: 150px;
+    background-color: #f5f2db;
+  }
+  
+  .item {
+    background: cyan;
+    padding: 10px;
+    margin: 10px;
+  }	  
+  
+  .stretch {
+    align-self: stretch;
+  }
+  
+  .start {
+    align-self: flex-start;
+  }
+  
+  .end {
+    align-self: flex-end;
+  }
+  
+  .center {
+    align-self: center;
+  }
+  
+  .baseline {
+    align-self: baseline;
+  }
+  
